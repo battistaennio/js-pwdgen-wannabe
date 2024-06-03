@@ -5,12 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Generator</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     
-    <h2 id="risultato-password"></h2>
+    <header>
+        <h1>Generatore di <span>in</span>efficentissime Password</h1>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div class="risultato-script">
+                <h3>Il tuo nome è:</h3>
+                <h2 id="nome">...</h2>
+            </div>
+
+            <div class="risultato-script">
+                <h3>Il tuo cognome è:</h3>
+                <h2 id="cognome">...</h2>
+            </div>
+
+            <div class="risultato-script">
+                <h3>Il tuo colore preferito è:</h3>
+                <h2 id="colore">...</h2>
+            </div>
+
+        </div>
+
+        <div class="container">
+
+            <div id="risultato">
+                <h3>LA TUA PASSWORD E':</h3>
+                <h2 id="risultato-password">...</h2>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>La password generata da questo sito potrebbe non soddisfare i requisiti minimi di sicurezza. Invitiamo pertanto a non utilizzare le password suggerite.</p>
+    </footer>
 
     <!-- link JS -->
     <script type="text/javascript" src="javascript.js"></script>
