@@ -6,11 +6,11 @@ let userName = prompt("Inserisci il tuo nome");
 
 let userSurname = prompt("Inserisci il tuo cognome");
 
-console.log("nome: ", userName + " cognome: ", userSurname);
-
 // chiedi il suo colore preferito
 
+let userFavouriteColor = prompt("Inserisci il tuo colore preferito");
 
+console.log("nome: ", userName + " cognome: ", userSurname + " colore preferito: ", userFavouriteColor);
 
 // crea costante per 23
 
