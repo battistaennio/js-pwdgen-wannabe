@@ -2,11 +2,11 @@
 
 let userName = prompt("Inserisci il tuo nome");
 
-console.log("nome: ", userName);
-
 // chiedi il suo cognome
 
+let userSurname = prompt("Inserisci il tuo cognome");
 
+console.log("nome: ", userName + " cognome: ", userSurname);
 
 // chiedi il suo colore preferito
 
