@@ -14,7 +14,9 @@ console.log("nome: ", userName + " cognome: ", userSurname + " colore preferito:
 
 // crea costante per 23
 
+const numeroFisso = 23;
 
+console.log("nome: ", userName + " cognome: ", userSurname + " colore preferito: ", userFavouriteColor + " numero fisso: ", numeroFisso);
 
 // aggiungi nome + cognome + colorepreferito + 23
 
