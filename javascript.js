@@ -16,10 +16,10 @@ console.log("nome: ", userName + " cognome: ", userSurname + " colore preferito:
 
 const numeroFisso = 23;
 
-console.log("nome: ", userName + " cognome: ", userSurname + " colore preferito: ", userFavouriteColor + " numero fisso: ", numeroFisso);
-
 // aggiungi nome + cognome + colorepreferito + 23
 
+let userPassword = userName + userSurname + userFavouriteColor + numeroFisso;
+console.log("Risultato password: ", userPassword);
 
 
 // scrivi sulla pagina nomecognomecolorepreferito23
